@@ -3,6 +3,9 @@ this is new file.
 change from feature branch.
 
 change from feature-rebase branch.
+<<<<<<< HEAD
 
 2nd change from feature-rebase branch.
 
+=======
+>>>>>>> a0beb8f (change from feature-rebase branch)
