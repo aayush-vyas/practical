@@ -1,9 +1,9 @@
 # Practical
 # 1. Pull and Merge difference
-first of all i have created one text file in main branch called new.txt. then after created one branch called "feature-a", and made some changes in new.txt from the feature-a branch.
-then i made pull request and merge it to main branch.
+first of all, i have created one text file in main branch called new.txt. Then after creating one branch called "feature-a" and made some changes in new.txt from the feature-a branch.
+then I made a pull request and merged it to the main branch.
 
-some of the command i had used for it.
+Some of the commands i had used for it.
 ``` 
 1. git add .
 2. git commit -m "new file added"
@@ -16,7 +16,7 @@ some of the command i had used for it.
 ```
 
 # 2. Rebase 
-then after i have created one more branch called feature-rebase. and applied some changes in new.txt from feature-rebase branch. and checkout to master and then rebase master into feature-rebase
+then after i created one more branch called feature-rebase. and applied some changes in new.txt from feature-rebase branch. And checkout to master and then rebase master into feature-rebase
 
 ```
 1. git checkout -b feature-rebase
@@ -32,7 +32,7 @@ then after i have created one more branch called feature-rebase. and applied som
 ```
 
 # 4. Cherry pick
- I switch to feature-rebase, and created one more file called new_com_change.txt, made some changes, commited two times. and then cherry-picked first commit from master branch
+ I switched to feature-rebase, and created one more file called new_com_change.txt, made some changes, committed two times. And then cherry-picked the first commit from the master branch
  
  ```
  1. git checkout feature-rebase
